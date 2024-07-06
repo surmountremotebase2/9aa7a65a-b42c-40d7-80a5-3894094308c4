@@ -6,8 +6,8 @@ class TradingStrategy(Strategy):
     
     def __init__(self):
         self.ticker = "NVDA"
-        self.support_distance = 0.15  # 15% from support
-        self.resistance_distance = 0.18  # 18% from resistance
+        self.support_distance = 0.20  # 20% from support
+        self.resistance_distance = 0.20  # 20% from resistance
 
     @property
     def assets(self):
